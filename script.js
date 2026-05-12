@@ -7,3 +7,4 @@ function getFormvalue(e) {
 	alert(`${firstName} ${lastName}`)
 }
 
+document.getElementById('form1').addEventListener('submit',getFormvalue);
