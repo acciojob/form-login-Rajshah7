@@ -1,7 +1,7 @@
 function getFormvalue(e) {
 	 e.preventDefault();
 
-	const firstName = document.querySelctor("input[name='fname']").value.trim();
+	const firstName = document.querySelector("input[name='fname']").value.trim();
 	const lastName = document.querySelector("input[name='lname']").value.trim();
 
 	alert(`${firstName} ${lastName}`)
